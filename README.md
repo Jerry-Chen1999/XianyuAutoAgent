@@ -115,48 +115,7 @@ https://github.com/cv-cat/XianYuApis
 
 感谢<a href="https://github.com/cv-cat">@CVcat</a>的技术支持
 
-## 📱 交流群
-欢迎加入项目交流群，交流技术、分享经验、互助学习。
-<div align="center">
-  <table>
-    <tr>
-      <td align="center"><strong>交流群8（已满200）</strong></td>
-      <td align="center"><strong>交流群9（推荐加入）</strong></td>
-    </tr>
-    <tr>
-      <td><img src="./images/wx_group8.png" width="300px" alt="交流群1"></td>
-      <td><img src="./images/wx_group9.png" width="300px" alt="交流群2"></td>
-    </tr>
-  </table>
-</div>
-
-## 💼 寻找机会
-
-### <a href="https://github.com/shaxiu">@Shaxiu</a>
-**🔍寻求方向**：**AI产品经理实习**  
-**🛠️项目贡献：**：需求分析、agent方案设计与实现  
-**📫 联系：** **email**:coderxiu@qq.com；**wx:** coderxiu
-
-### <a href="https://github.com/cv-cat">@CVcat</a>
-**🔍寻求方向**：**研发工程师实习**（python、java、逆向、爬虫）  
-**🛠️项目贡献：**：闲鱼逆向工程  
-**📫 联系：** **email:** 992822653@qq.com；**wx:** CVZC15751076989
-## ☕ 请喝咖啡
-您的☕和⭐将助力项目持续更新：
-
-<div align="center">
-  <img src="./images/wechat_pay.jpg" width="400px" alt="微信赞赏码"> 
-  <img src="./images/alipay.jpg" width="400px" alt="支付宝收款码">
-</div>
-
 
 ## 📈 Star 趋势
-<a href="https://www.star-history.com/#shaxiu/XianyuAutoAgent&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=shaxiu/XianyuAutoAgent&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=shaxiu/XianyuAutoAgent&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=shaxiu/XianyuAutoAgent&type=Date" />
- </picture>
-</a>
-
+<a href="https://www.star-history.com/#Jerry-Chen1999/XianyuAutoAgent&Date"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Jerry-Chen1999/XianyuAutoAgent&type=Date&theme=dark" /> <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Jerry-Chen1999/XianyuAutoAgent&type=Date" /> <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Jerry-Chen1999/XianyuAutoAgent&type=Date" /> </picture> </a>
 
