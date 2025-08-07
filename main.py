@@ -17,11 +17,11 @@ from context_manager import ChatContextManager
 
 class XianyuLive:
     def __init__(self, cookies_str):
-        self.xianyu = XianyuApis()
+        self.api_client = XianyuApis()
         self.base_url = 'wss://wss-goofish.dingtalk.com/'
         self.cookies_str = cookies_str
         self.cookies = trans_cookies(cookies_str)
-        self.xianyu.session.cookies.update(self.cookies)  # 直接使用 session.cookies.update
+        self.api_client.session.cookies.update(self.cookies)  # 直接使用 session.cookies.update
         self.myid = self.cookies['unb']
         self.device_id = generate_device_id(self.myid)
         self.context_manager = ChatContextManager()
@@ -59,7 +59,7 @@ class XianyuLive:
             logger.info("开始刷新token...")
             
             # 获取新token（如果Cookie失效，get_token会直接退出程序）
-            token_result = self.xianyu.get_token(self.device_id)
+            token_result = self.api_client.get_token(self.device_id)
             if 'data' in token_result and 'accessToken' in token_result['data']:
                 new_token = token_result['data']['accessToken']
                 self.current_token = new_token
@@ -414,7 +414,7 @@ class XianyuLive:
             item_info = self.context_manager.get_item_info(item_id)
             if not item_info:
                 logger.info(f"从API获取商品信息: {item_id}")
-                api_result = self.xianyu.get_item_info(item_id)
+                api_result = self.api_client.get_item_info(item_id)
                 if 'data' in api_result and 'itemDO' in api_result['data']:
                     item_info = api_result['data']['itemDO']
                     # 保存商品信息到数据库
